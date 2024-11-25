@@ -1,0 +1,10 @@
+
+public class JavaExample1 {
+	public static void main(String[] args) {
+		//สั่งแสดงชื่อสินค้า
+		System.out.println("Input product name: ");
+		
+		 
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.util.*;
+public class JavaExample1 {
+	public static void main(String[] args) {
+		//define object for scanner class(input data from keyboard)
+		
+		//สั่งแสดงชื่อสินค้า
+		System.out.println("Input product name: ");
+		
+		 
+	}
+
+}
