@@ -15,8 +15,12 @@ public class EmployeeInfo {
 		SaveandOpen objFile = new SaveandOpen();
 		if(choose.equals("insert")) {
 			objFile.insert();			
-		}
-		
+		}else { 
+			//ใช้สำหรับการค้นหาข้อมูลแผนกที่ต้องการ
+			System.out.print("\nEnter dept : "); 
+			String dept = console.next();
+			objFile.setDept(dept);
+			objFile.searchData();
+		}		
 	}
-
 }
